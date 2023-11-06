@@ -15,10 +15,8 @@ func errorHandler(err error) {
 func main() {
 	// Каков будет вывод программы и почему?
 	var err *MyError
-	fmt.Printf("%T, %v\n", err, err)
 	errorHandler(err)
 
 	err = &MyError{}
-	fmt.Printf("%T, %v\n", err, err)
 	errorHandler(err)
 }
