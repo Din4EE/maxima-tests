@@ -25,3 +25,4 @@ func main() {
 	fmt.Println("res:", res[0].value, res[1].value, res[2].value)
 }
 ```
+Начиная с `Go 1.22` можно будет опустить этот момент, подробнее: [Fixing For Loops in Go 1.22](https://go.dev/blog/loopvar-preview)
